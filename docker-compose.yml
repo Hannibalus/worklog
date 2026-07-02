@@ -1,0 +1,15 @@
+services:
+  worklog:
+    # Use the published image, or comment `image:` and uncomment `build: .` to build locally.
+    image: ghcr.io/hannibalus/worklog:latest
+    # build: .
+    container_name: worklog
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    environment:
+      TZ: Europe/Bratislava
+    volumes:
+      - ./data:/data
