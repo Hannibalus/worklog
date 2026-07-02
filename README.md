@@ -10,6 +10,8 @@ switch between companies, get monthly overviews, and export to CSV / Markdown / 
   they belong to, and each company keeps its own records.
 - **License:** GNU GPL v3.0.
 
+![Work log screenshot](docs/screenshot.png)
+
 ---
 
 ## Table of contents
